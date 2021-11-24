@@ -13,7 +13,7 @@ const particlesOptions = {
   //customize this to your liking
   particles: {
     number: {
-      value: 30,
+      value: 80,
       density: {
         enable: true,
         value_area: 800
@@ -54,6 +54,7 @@ class App extends Component {
   }
 
   calculateFaceLocation = (data) => {
+    console.log (data);
     const clarifaiFace = data.outputs[0].data.regions[0].region_info.bounding_box;
     const image = document.getElementById('inputimage');
     const width = Number(image.width);
