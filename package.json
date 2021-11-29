@@ -11,7 +11,7 @@
     "react-dom": "^17.0.2",
     "react-parallax-tilt": "^1.5.66",
     "react-particles-js": "^3.5.3",
-    "react-scripts": "^0.9.5",
+    "react-scripts": "^4.0.3",
     "react-tsparticles": "^1.35.2",
     "serve": "^13.0.2",
     "tachyons": "^4.12.0",
@@ -23,9 +23,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "engines": {    
-     "node": "16.9.1"   
-    },
+  "engines": {
+    "node": "16.9.1"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
